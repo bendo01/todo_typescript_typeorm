@@ -44,13 +44,13 @@ AppDataSource.initialize().then(async () => {
             task.is_done = false;
             await AppDataSource.manager.save(task);
         } else if (input_menu === 2) {
-
+            console.log("Mohon lengkapi modul ini");
         } else if (input_menu === 3) {
-
+            console.log("Mohon lengkapi modul ini");
         } else if (input_menu === 4) {
-
+            console.log("Mohon lengkapi modul ini");
         } else if (input_menu === 5) {
-
+            console.log("Mohon lengkapi modul ini");
         } else {
             console.log("Terimakasih telah menggunakan applikasi kami");
             return process.exit(1);

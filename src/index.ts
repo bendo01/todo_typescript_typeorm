@@ -4,8 +4,8 @@ import promptSync from 'prompt-sync';
 
 function menu() {
     console.info("Menu Applikasi Todo");
-    console.info("1. Daftar Task");
-    console.info("2. Tambah Task");
+    console.info("1. Tambah Task");
+    console.info("2. Daftar Task");
     console.info("3. Ubah Task");
     console.info("4. Hapus Task");
     console.info("5. Selesai Task");

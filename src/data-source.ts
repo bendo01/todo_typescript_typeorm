@@ -3,11 +3,11 @@ import { DataSource } from "typeorm";
 import { Task } from "./entity/Task";
 
 export const AppDataSource = new DataSource({
-    type: "mariadb",
+    type: "postgres",
     host: "localhost",
-    port: 3306,
-    username: "isikan_username_mysql",
-    password: "isikan_password_mysql",
+    port: 5432,
+    username: "bendo01",
+    password: "talaso",
     database: "todo",
     synchronize: true,
     logging: false,
